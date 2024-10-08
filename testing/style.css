@@ -2,6 +2,7 @@ body {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px 20px;
+    font-size: 15px;
 }
 
 .site {
@@ -16,12 +17,43 @@ body {
 }
 
 .one, .two, .three {
-    width: 500px;
-    height: 500px;
-    background-color: lightblue;
+    background-color: rgb(219, 99, 243);
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;
 }
+
+.one {
+    width: 400px;
+    height: 200px;
+    border: 20px solid blue;
+    border-radius: 70px 10px;
+}
+
+.two {
+    width: 20em;
+    height: calc(10em + 20vw) ;
+    border: 20px solid blue;
+    border-radius: 70px / 40px;
+    opacity: 100%;
+}
+
+.three {
+    width: 20rem;
+    height: 10rem;
+    border: 20px solid blue;
+    border-radius: 20vh / 10px;
+    box-shadow: 20px 20px 20px 20px;
+}
+
+h1 {
+    
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 5px;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-shadow: 20px 5px;
+    overflow: scroll;
+ }
 
