@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  margin: 0px;
+}
+
+.left {
+}
+
+.backgroundOdin {
+  background-color: black;
+  opacity: 50%;
+}
