@@ -6,9 +6,7 @@
 .container {
   text-align: center;
   display: grid;
-  grid-template:
-    100px 80px 500px 50px /
-    1fr 4fr;
+  grid-template-columns: 1fr 4fr;
   gap: 4px;
 }
 
@@ -109,8 +107,6 @@ li {
   grid-area: 3 / 2 / 4 / 3;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-template-rows: repeat(3, 200px);
-  overflow: auto;
   gap: 15px;
 }
 
@@ -125,6 +121,7 @@ li {
   background-color: #ffffff;
   color: black;
   text-align: center;
+  height: 200px;
 }
 
 .card p {
